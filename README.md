@@ -32,6 +32,3 @@ A full-stack Mini CRM application that helps businesses manage customer leads fr
 - Database management
 - Real-world CRM workflow
 
-👨‍💻 Author
-
-Your Name
