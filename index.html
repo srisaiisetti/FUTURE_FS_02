@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini CRM Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+<h1>📊 Client Lead Management System</h1>
+<p>Mini CRM Dashboard</p>
+</header>
+
+<div class="stats">
+
+<div class="box">
+<h2 id="total">0</h2>
+<p>Total Leads</p>
+</div>
+
+<div class="box">
+<h2 id="newLead">0</h2>
+<p>New</p>
+</div>
+
+<div class="box">
+<h2 id="contacted">0</h2>
+<p>Contacted</p>
+</div>
+
+<div class="box">
+<h2 id="converted">0</h2>
+<p>Converted</p>
+</div>
+
+</div>
+
+<div class="container">
+
+<h2>Add New Lead</h2>
+
+<input id="name" placeholder="Client Name">
+
+<input id="email" placeholder="Email">
+
+<input id="source" placeholder="Lead Source">
+
+<textarea id="notes" placeholder="Notes"></textarea>
+
+<button onclick="addLead()">Add Lead</button>
+
+<hr>
+
+<h2>Lead List</h2>
+
+<div id="leadList"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

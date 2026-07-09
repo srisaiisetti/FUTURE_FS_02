@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1783441197020,
+    "name": "sai",
+    "email": "sai@gmail.com",
+    "source": "website",
+    "status": "New",
+    "notes": "intersted"
+  },
+  {
+    "id": 1783441765970,
+    "name": "sai",
+    "email": "sai@gmail.com",
+    "source": "website",
+    "status": "New",
+    "notes": "intersted"
+  },
+  {
+    "id": 1783442831627,
+    "name": "vamsi",
+    "email": "vamsi@gmail.com",
+    "source": "genai",
+    "status": "New",
+    "notes": "no"
+  }
+]
